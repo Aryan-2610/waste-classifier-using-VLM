@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+
+# --- Jupyter/Colab Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode settings (optional) ---
+.vscode/
+
+# --- Hugging Face model cache (optional) ---
+.cache/
+*.ckpt
+
+# --- Environment files ---
+.env
+.env.*
+
+# --- PyTorch checkpoints ---
+*.pth
+*.pt
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- Image or frame logs (optional) ---
+frames/
+inference_output/
